@@ -1,37 +1,51 @@
 package shadow.step.homework2codelabs
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
+import android.widget.Button
 
 class MainActivity : AppCompatActivity() {
 
+    private lateinit var btnExample1: Button
+    private lateinit var btnExample2: Button
+    private lateinit var btnExample3: Button
+    private lateinit var btnExample4: Button
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
         Log.i("MainActivity", "Hello from MainActivity onCreate()")
+        //widgets
+        btnExample1 = findViewById(R.id.btnOpenExample1)
+        btnExample2 = findViewById(R.id.btnOpenExample2)
+        btnExample3 = findViewById(R.id.btnOpenExample3)
+        btnExample4 = findViewById(R.id.btnOpenExample4)
+
         init()
-
-    }
-    private fun init(){
-        answersExample1()
     }
 
-    /**
-     * Example 1
-     */
-    private fun answersExample1(){
-        val question1 = """What is the name of the layout file for the main activity?"""
-        val question2 = """What is the name of the string resource that specifies the application's name?"""
-        val question3 = """Which tool do you use to create a new emulator?"""
-        val question4 = """Assume that your app includes this logging statement Log.i?"""
-
-        val answers = arrayOf("activity_main.xml", "app_name", "AVD Manager", "Info")
-        Log.d("questions", question1 + " answer is: ${answers[0]}" )
-        Log.d("questions", question2 + " answer is: ${answers[1]}" )
-        Log.d("questions", question3 + " answer is: ${answers[2]}" )
-        Log.d("questions", question4 + " answer is: ${answers[3]}" )
+    private fun init() {
+        navigation()
     }
 
+    private fun navigation() {
+        btnExample1.setOnClickListener {
+            val intent = Intent(this, Example1::class.java)
+            startActivity(intent)
+        }
+        btnExample2.setOnClickListener {
+            val intent = Intent(this, Example2::class.java)
+            startActivity(intent)
+        }
+        btnExample3.setOnClickListener {
+            val intent = Intent(this, Example3one::class.java)
+            startActivity(intent)
+        }
+        btnExample4.setOnClickListener {
+            val intent = Intent(this, Example4::class.java)
+            startActivity(intent)
+        }
+    }
 }

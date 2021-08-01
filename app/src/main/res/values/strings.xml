@@ -1,4 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">HomeWork2Codelabs</string>
     <string name="happy_birthday_frodo_bagins">Happy Birthday Frodo Bagins!</string>
+    <string name="example1">Example1</string>
+    <string name="toast">Toast</string>
+    <string name="count">Count</string>
+    <string name="_0">0</string>
+    <string name="zero">ZERO</string>
+    <string name="example2">example2</string>
+    <string name="article_title">Александр Пушкин</string>
+    <string name="article_subtitle">Герой</string>
+    <string name="article_text">Что есть истина? http://www.pushkintut.ru/
+        Друг.
+Да, слава в прихотях вольна.
+Как огненный язык, она
+По избранным главам летает,
+С одной сегодня исчезает
+И на другой уже видна.
+За новизной бежать смиренно
+Народ бессмысленный привык;
+Но нам уж то чело священно,
+Над коим вспыхнул сей язык.
+На троне, на кровавом поле,
+Меж граждан на чреде иной
+Из сих избранных кто всех боле
+Твоею властвует душой?
+Поэт.
+Все он, все он — пришлец сей бранный,
+Пред кем смирилися цари,
+Сей ратник, вольностью венчанный,
+Исчезнувший, как тень зари.
+Друг.
+Когда ж твой ум он поражает
+Своею чудною звездой?
+Тогда ль, как с Альпов он взирает
+На дно Италии святой;
+Тогда ли, как хватает знамя
+Иль жезл диктаторский; тогда ль,
+Как водит и кругом и вдаль
+Войны стремительное пламя,
+И пролетает ряд побед
+Над ним одна другой вослед;
+Тогда ль, как рать героя плещет
+Перед громадой пирамид,
+Иль, как Москва пустынно блещет,
+Его приемля, — и молчит?
+Поэт.
+Нет, не у счастия на лоне
+Его я вижу, не в бою,
+Не зятем кесаря на троне;
+Не там, где на скалу свою
+Сев, мучим казнию покоя,
+Осмеян прозвищем героя,
+Он угасает недвижим,
+Плащом закрывшись боевым.
+Не та картина предо мною!
+Одров я вижу длинный строй,
+Лежит на каждом труп живой,
+Клейменный мощною чумою,
+Царицею болезней… он,
+Не бранной смертью окружен,
+Нахмурясь ходит меж одрами
+И хладно руку жмет чуме
+И в погибающем уме
+Рождает бодрость… Небесами
+Клянусь: кто жизнию своей
+Играл пред сумрачным недугом,
+Чтоб ободрить угасший взор,
+Клянусь, тот будет небу другом,
+Каков бы ни был приговор
+Земли слепой…
+Друг.
+Мечты поэта —
+Историк строгий гонит вас!
+Увы! его раздался глас,-
+И где ж очарованье света!
+Поэт.
+Да будет проклят правды свет,
+Когда посредственности хладной,
+Завистливой, к соблазну жадной,
+Он угождает праздно! — Нет!
+Тьмы низких истин мне дороже
+Нас возвышающий обман…
+Оставь герою сердце! Что же
+Он будет без него? Тиран…
+Друг.
+Утешься…
+    </string>
+    <string name="add_comment">Add comment</string>
+    <string name="example3">example3</string>
+    <string name="enter_your_message_here">Enter your message here</string>
+    <string name="reply_received">Reply Received</string>
+    <string name="place_for_message">place for message</string>
+    <string name="send">send</string>
+    <string name="example4">example4</string>
+    <string name="open_website">Open Website</string>
+    <string name="enter_website_link">enter website link</string>
+    <string name="button_share">button_share</string>
+    <string name="open_location">open_location</string>
+    <string name="enter_coordinates">enter coordinates</string>
+    <string name="share_this_text">share this text</string>
+    <string name="take_a_picture">take a picture</string>
 </resources>
